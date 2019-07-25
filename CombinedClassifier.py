@@ -54,9 +54,6 @@ class CombinedClassifier(ClassifierI):
         return self.poll.count(mode) / len(self.poll)
 
 
-    def getConfidence(self):
-        return statistics.mean(self.poll)
-
 
 
 
